@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/combo-experts",
+      "handler": "combo-experts.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/combo-experts/count",
+      "handler": "combo-experts.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/combo-experts/:id",
+      "handler": "combo-experts.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/combo-experts",
+      "handler": "combo-experts.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/combo-experts/:id",
+      "handler": "combo-experts.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/combo-experts/:id",
+      "handler": "combo-experts.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "submenus",
+  "info": {
+    "name": "submenus"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mainMenu": {
+      "type": "string"
+    },
+    "mainMenuNo": {
+      "type": "integer"
+    },
+    "subMenu": {
+      "type": "string"
+    },
+    "subMenuNo": {
+      "type": "integer"
+    },
+    "is_Active": {
+      "type": "integer"
+    },
+    "icon": {
+      "type": "integer"
+    }
+  }
+}

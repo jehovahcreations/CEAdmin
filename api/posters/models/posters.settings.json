@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posters",
+  "info": {
+    "name": "posters"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mainMenu": {
+      "type": "string"
+    },
+    "subMenu": {
+      "type": "string"
+    },
+    "is_Active": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}

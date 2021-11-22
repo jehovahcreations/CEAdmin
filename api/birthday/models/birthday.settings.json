@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "birthdays",
+  "info": {
+    "name": "Birthday"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "text"
+    },
+    "mainMenu": {
+      "type": "string"
+    },
+    "subMenu": {
+      "type": "string"
+    },
+    "subMenuNo": {
+      "type": "integer"
+    },
+    "is_Active": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/youtubes",
+      "handler": "youtubes.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/youtubes/count",
+      "handler": "youtubes.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/youtubes/:id",
+      "handler": "youtubes.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/youtubes",
+      "handler": "youtubes.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/youtubes/:id",
+      "handler": "youtubes.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/youtubes/:id",
+      "handler": "youtubes.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

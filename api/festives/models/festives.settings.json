@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "festives",
+  "info": {
+    "name": "festives"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mainMenu": {
+      "type": "string"
+    },
+    "subMenu": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "text"
+    },
+    "is_Active": {
+      "type": "integer"
+    }
+  }
+}

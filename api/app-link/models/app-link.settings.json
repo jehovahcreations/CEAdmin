@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "applinks",
+  "info": {
+    "name": "App  Link",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "http": {
+      "type": "string"
+    },
+    "is_Active": {
+      "type": "integer"
+    }
+  }
+}

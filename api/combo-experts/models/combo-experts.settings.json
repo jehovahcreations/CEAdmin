@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "comboexperts",
+  "info": {
+    "name": "Combo Experts",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mainMenu": {
+      "type": "string"
+    },
+    "mainMenuNo": {
+      "type": "integer"
+    },
+    "subMenu": {
+      "type": "string"
+    },
+    "subMenuNo": {
+      "type": "integer"
+    },
+    "MinimumAgeatEntry": {
+      "type": "string"
+    },
+    "MaximumAgeatEntry": {
+      "type": "string"
+    },
+    "MaximumMaturityAge": {
+      "type": "string"
+    },
+    "PolicyTerm": {
+      "type": "string"
+    },
+    "MinimumSumAssured": {
+      "type": "string"
+    },
+    "MaximumSumAssured": {
+      "type": "string"
+    },
+    "PremiumMode": {
+      "type": "string"
+    },
+    "RidersAvailable": {
+      "type": "string"
+    },
+    "SurrenderValue": {
+      "type": "string"
+    },
+    "LoanAvailable": {
+      "type": "string"
+    },
+    "OtherBenefit": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "text"
+    },
+    "plan": {
+      "type": "string"
+    },
+    "pdf": {
+      "type": "string"
+    }
+  }
+}

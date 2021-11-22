@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "disclimers",
+  "info": {
+    "name": "disclimers"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "image": {
+      "type": "text"
+    },
+    "is_Active": {
+      "type": "integer"
+    }
+  }
+}

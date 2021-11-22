@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/birthdays",
+      "handler": "birthday.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/birthdays/count",
+      "handler": "birthday.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/birthdays/:id",
+      "handler": "birthday.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/birthdays",
+      "handler": "birthday.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/birthdays/:id",
+      "handler": "birthday.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/birthdays/:id",
+      "handler": "birthday.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

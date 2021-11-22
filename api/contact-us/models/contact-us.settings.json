@@ -1,0 +1,69 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "name": "Contact Us"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "whatsapp": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "offer": {
+      "type": "string"
+    },
+    "soffer": {
+      "type": "string"
+    },
+    "gpay": {
+      "type": "string"
+    },
+    "phonepe": {
+      "type": "string"
+    },
+    "paytm": {
+      "type": "string"
+    },
+    "acc": {
+      "type": "string"
+    },
+    "bank": {
+      "type": "string"
+    },
+    "ifsc": {
+      "type": "string"
+    },
+    "btanch": {
+      "type": "string"
+    },
+    "ren": {
+      "type": "string"
+    },
+    "renee": {
+      "type": "string"
+    },
+    "image": {
+      "type": "text"
+    },
+    "is_Active": {
+      "type": "integer"
+    }
+  }
+}

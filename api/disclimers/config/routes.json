@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/disclimers",
+      "handler": "disclimers.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/disclimers/count",
+      "handler": "disclimers.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/disclimers/:id",
+      "handler": "disclimers.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/disclimers",
+      "handler": "disclimers.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/disclimers/:id",
+      "handler": "disclimers.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/disclimers/:id",
+      "handler": "disclimers.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

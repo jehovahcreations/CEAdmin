@@ -1,0 +1,66 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lics",
+  "info": {
+    "name": "lics"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "MainMenu": {
+      "type": "string"
+    },
+    "SubMenu": {
+      "type": "string"
+    },
+    "Category": {
+      "type": "string"
+    },
+    "MinimumAgeatEntry": {
+      "type": "string"
+    },
+    "MaximumAgeatEntry": {
+      "type": "string"
+    },
+    "MaximumMaturityAge": {
+      "type": "string"
+    },
+    "PolicyTerm": {
+      "type": "string"
+    },
+    "MinimumSumAssured": {
+      "type": "string"
+    },
+    "MaximumSumAssured": {
+      "type": "string"
+    },
+    "PremiumMode": {
+      "type": "string"
+    },
+    "RidersAvailable": {
+      "type": "string"
+    },
+    "SurrenderValue": {
+      "type": "string"
+    },
+    "LoanAvailable": {
+      "type": "string"
+    },
+    "OtherBenefit": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "pdf": {
+      "type": "string"
+    },
+    "is_Active": {
+      "type": "integer"
+    }
+  }
+}

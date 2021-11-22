@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newupdates",
+  "info": {
+    "name": "newupdates"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "is_Active": {
+      "type": "integer"
+    }
+  }
+}

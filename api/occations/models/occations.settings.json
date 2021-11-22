@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "occations",
+  "info": {
+    "name": "occations"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mainMenu": {
+      "type": "string"
+    },
+    "mainMenuNo": {
+      "type": "integer"
+    },
+    "subMenu": {
+      "type": "string"
+    },
+    "subMenuNo": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "is_Active": {
+      "type": "integer"
+    }
+  }
+}

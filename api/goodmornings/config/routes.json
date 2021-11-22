@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/goodmornings",
+      "handler": "goodmornings.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/goodmornings/count",
+      "handler": "goodmornings.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/goodmornings/:id",
+      "handler": "goodmornings.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/goodmornings",
+      "handler": "goodmornings.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/goodmornings/:id",
+      "handler": "goodmornings.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/goodmornings/:id",
+      "handler": "goodmornings.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

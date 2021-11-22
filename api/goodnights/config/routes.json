@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/goodnights",
+      "handler": "goodnights.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/goodnights/count",
+      "handler": "goodnights.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/goodnights/:id",
+      "handler": "goodnights.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/goodnights",
+      "handler": "goodnights.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/goodnights/:id",
+      "handler": "goodnights.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/goodnights/:id",
+      "handler": "goodnights.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

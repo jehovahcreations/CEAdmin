@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "demoos",
+  "info": {
+    "name": "demoos"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "value": {
+      "type": "integer"
+    }
+  }
+}

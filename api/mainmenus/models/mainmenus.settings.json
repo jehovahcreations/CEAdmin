@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mainmenus",
+  "info": {
+    "name": "mainmenus"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "menuName": {
+      "type": "string"
+    },
+    "menuNumber": {
+      "type": "integer"
+    },
+    "is_Active": {
+      "type": "integer"
+    },
+    "icon": {
+      "type": "integer"
+    }
+  }
+}

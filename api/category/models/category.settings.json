@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categories",
+  "info": {
+    "name": "Category"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mainMenu": {
+      "type": "string"
+    },
+    "subMenu": {
+      "type": "string"
+    },
+    "subMenuNo": {
+      "type": "integer"
+    },
+    "categoryName": {
+      "type": "string"
+    },
+    "categoryNo": {
+      "type": "integer"
+    },
+    "icon": {
+      "type": "integer"
+    },
+    "is_Active": {
+      "type": "integer"
+    }
+  }
+}
